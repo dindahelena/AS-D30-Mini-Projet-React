@@ -1,11 +1,13 @@
-# React Auth App
+# User Management App
+Mini Aplikasi yang saya buat merupakan Aplikasi User Management sederhana yang menggunakan React dan terintegrasi dengan API publik Reqres. Mendukung fitur autentikasi (register, login), daftar user, detail user, pagination, dan proteksi halaman (Protected Route).
 
 ## Fitur
-- Login / Register (menggunakan API Reqres)
-- List User (dengan pagination)
-- Detail User
-- Protected Routes
-- Responsive Design
+- Register user (endpoint register - success & unsuccess)
+- Login user (endpoint login - success & unsuccess)
+- Menampilkan daftar user (endpoint list users & pagination)
+- Menampilkan detail user (endpoint single user)
+- Protected route: halaman khusus hanya untuk user yang sudah login
+- Responsive design (tampilan optimal di berbagai device)
 
 ## Struktur Folder Utama
 src/
