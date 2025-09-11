@@ -10,24 +10,38 @@ Mini Aplikasi yang saya buat merupakan Aplikasi User Management sederhana yang m
 - Responsive design (tampilan optimal di berbagai device)
 
 ## Struktur Folder Utama
-src/
-  components/
-    Register.js
-    Login.js
-    UserList.js
-    UserDetail.js
-    ProtectedRoute.js
-  pages/
-    Home.js
-    Detail.js
-  App.js
-  index.js
+- src/
+  - components/
+    - Register.js
+    - Login.js
+    - UserList.js
+    - UserDetail.js
+    - ProtectedRoute.js
+  - pages/
+    - Home.js
+    - Detail.js
+  - App.js
+  - index.js
 
 
 ## Library yang Digunakan
 - React
 - React Router DOM
 - Axios
+
+## Cara Menjalankan
+1. Clone repository
+git clone https://github.com/dindahelena/AS-D30-Mini-Projet-React.git
+cd AS-D30-Mini-Projet-React
+
+2. Instal dependencies
+npm install
+
+3. Jalankan aplikasi
+npm start
+
+4. Buka aplikasi
+Akses di browser: http://localhost:3000
 
 ## Link GitHub
 (https://github.com/dindahelena/AS-D30-Mini-Projet-React/)
